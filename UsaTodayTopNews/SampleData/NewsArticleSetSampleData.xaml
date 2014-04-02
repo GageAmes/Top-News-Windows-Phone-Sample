@@ -1,0 +1,74 @@
+﻿<local:NewsArticleSet xmlns:local="clr-namespace:UsaTodayTopNews">
+    <local:NewsArticleSet.stories>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>Powerful quake strikes off Chile; tsunami warning posted</local:NewsArticle.Title>
+            <local:NewsArticle.Description>Magnitude 8 temblor prompts tsunami warning for coastal South America.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T08:33:51Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>Meager snowpack bad news for drought-plagued Calif.</local:NewsArticle.Title>
+            <local:NewsArticle.Description>Sierra snowpack is still far below normal as spring melt fast approaches.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T04:09:32Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>White House: 7.1 million have signed up under ACA</local:NewsArticle.Title>
+            <local:NewsArticle.Description>The White House confirms it has reached a crucial benchmark for the health care law.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T01:38:31Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>Former S&amp;L exec Keating dies at age 90</local:NewsArticle.Title>
+            <local:NewsArticle.Description>Keating's name was synonymous with the savings-and-loan era of the 1980s.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T08:54:39Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>Armour: Skipping Masters will pay off for Tiger Woods</local:NewsArticle.Title>
+            <local:NewsArticle.Description>Rest of Woods' body may be falling apart, but he still has part that matters most: his mind</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T08:57:08Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>Embattled Washington mayor on hot seat in primary</local:NewsArticle.Title>
+            <local:NewsArticle.Description>Voters in the nation's capital go to the polls to decide future of embattled Mayor Vincent Gray.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T02:42:18Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>Report: Production of new iPhone screens to start in May</local:NewsArticle.Title>
+            <local:NewsArticle.Description>Apple is reportedly exploring larger screens for the next iPhone.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T02:08:07Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>Wisconsin, Kentucky governors make Final Four wager</local:NewsArticle.Title>
+            <local:NewsArticle.Description>The Final Four wager includes shipments of beer, bourbon and cheese.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T08:47:03Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>Reports: Michael Strahan to join 'GMA'</local:NewsArticle.Title>
+            <local:NewsArticle.Description>He'll make frequent appearances on the top-rated morning show, according to reports.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T10:08:01Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>Enrique Iglesias' dad has never met longtime girlfriend</local:NewsArticle.Title>
+            <local:NewsArticle.Description>Singer Julio Iglesias says he's yet to meet Anna Kournikova, son's partner of 12 years.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T01:04:05Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>Barra: 'Today's GM will do the right thing'</local:NewsArticle.Title>
+            <local:NewsArticle.Description>GM CEO testifies before congressional subcommittee about its recall.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T09:27:01Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>FCC ruling clears way for faster, less congested WiFi</local:NewsArticle.Title>
+            <local:NewsArticle.Description>New federal rules allow more bandwidth, faster speeds for WiFi hotspots-even outdoors.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T05:40:26Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>Anderson Cooper won't get mom's millions</local:NewsArticle.Title>
+            <local:NewsArticle.Description>'I don't believe in inheriting money,' says the Vanderbilt scion.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T06:30:14Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+        <local:NewsArticle>
+            <local:NewsArticle.Title>13 tips for finding low airfares</local:NewsArticle.Title>
+            <local:NewsArticle.Description>Here's how to make your airfare dollars go further.</local:NewsArticle.Description>
+            <local:NewsArticle.PublicationDate>2014-04-01T08:00:37Z</local:NewsArticle.PublicationDate>
+        </local:NewsArticle>
+    </local:NewsArticleSet.stories>
+</local:NewsArticleSet>

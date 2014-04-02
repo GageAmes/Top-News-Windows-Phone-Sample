@@ -1,0 +1,61 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:UsaTodayTopNews"
+    x:Class="UsaTodayTopNews.MainPage"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignData /SampleData/NewsArticleSetSampleData.xaml}"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    toolkit:TiltEffect.IsTiltEnabled="True"
+    shell:SystemTray.IsVisible="True"
+    shell:SystemTray.BackgroundColor="#015AB4"
+    Loaded="PhoneApplicationPage_Loaded"
+    >
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+	<Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,12">
+			<TextBlock Text="USA TODAY" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+			<TextBlock Text="top news" Margin="9,-12,0,24" Style="{StaticResource PhoneTextTitle1Style}"/>
+		</StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+			<phone:LongListSelector x:Name="ArticleList" ItemsSource="{Binding stories}">
+				<phone:LongListSelector.ItemTemplate>
+					<DataTemplate>
+						<StackPanel Margin="0,0,0,17" Tap="Article_Tap">
+							<TextBlock Text="{Binding Title}" TextWrapping="Wrap" FontSize="{StaticResource PhoneFontSizeMediumLarge}" Margin="12, 0" />
+							<TextBlock Text="{Binding Description}" TextWrapping="NoWrap" TextTrimming="WordEllipsis" Margin="12,-3,12,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+							<TextBlock Text="{Binding PublicationDate, StringFormat=\{0:MMMM d a\\t h:mm tt\}}" TextWrapping="NoWrap" TextTrimming="WordEllipsis" Margin="12,-3,12,0" FontSize="{StaticResource PhoneFontSizeSmall}" Opacity="0.3" HorizontalAlignment="Right" />
+						</StackPanel>
+					</DataTemplate>
+				</phone:LongListSelector.ItemTemplate>
+			</phone:LongListSelector>
+		</Grid>
+
+        <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
+
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar BackgroundColor="#015AB4">
+            <shell:ApplicationBarIconButton IconUri="/Assets/refresh.png" Text="refresh" Click="Refresh_Click" />
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>
